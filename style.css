@@ -25,5 +25,5 @@ p {
 /*
 adding notes you may use the slashes and asterisks
 */
-a[href*='something'] {
+a[href*='love'] {
   color: lightblue;
