@@ -1,22 +1,26 @@
 p {
   color: green;
 }
+/*this is a tag selector for editng*/
 
 * {
   border: 1px solid green;
 }
-
+/*border edit is size, type, color*/
+/*this is a universal selector for editing, which means it wall apply to all*/
 .title {
   color: teal;
 }
-
+/*this selector uses dot, this is for classes attributes*/
 .stronks {
-  text-tranform: lowecase;
+  text-tranform: lowercase;
 }
+/**/
 
 #last-line {
   font-family: cursive;
 }
+/* this selector uses a number sign, this is for id attributes*/
 
 /*
 adding notes you may use the slashes and asterisks
