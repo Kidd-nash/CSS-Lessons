@@ -11,7 +11,7 @@ p {
 .title {
   color: teal;
 }
-/*this selector uses dot, this is for classes attributes*/
+/*this selector uses dot, this is for classes*/
 .stronks {
   text-tranform: lowercase;
 }
@@ -20,8 +20,10 @@ p {
 #last-line {
   font-family: cursive;
 }
-/* this selector uses a number sign, this is for id attributes*/
+/* this selector uses a number sign, this is for id */
 
 /*
 adding notes you may use the slashes and asterisks
 */
+a[href*='something'] {
+  color: lightblue;
