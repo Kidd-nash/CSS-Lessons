@@ -36,3 +36,7 @@ a:hover {
 p.background {
   background-color: black;
 }
+
+.paragrapu p {
+  color: lightgreen;
+}
