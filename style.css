@@ -27,7 +27,8 @@ adding notes you may use the slashes and asterisks
 */
 a[href*='love'] {
   color: lightblue;
+}
 
 a:hover {
-  color:red:
+  color: red;
 }
