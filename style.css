@@ -40,3 +40,8 @@ p.background {
 .paragrapu p {
   color: lightgreen;
 }
+
+h1,
+  p {
+    font-family: cursive;
+  }
