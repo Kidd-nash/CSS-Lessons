@@ -32,3 +32,7 @@ a[href*='love'] {
 a:hover {
   color: red;
 }
+
+p.background {
+  background-color: black;
+}
