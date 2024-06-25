@@ -15,6 +15,9 @@ p {
 .stronks {
   text-tranform: lowercase;
 }
+#author {
+  font-family: cursive;
+}
 /**/
 
 #last-line {
