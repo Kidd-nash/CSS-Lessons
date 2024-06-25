@@ -1,5 +1,5 @@
 p {
-  color: green;
+  font-size: 20px;
 }
 /*this is a tag selector for editng*/
 
@@ -9,7 +9,7 @@ p {
 /*border edit is size, type, color*/
 /*this is a universal selector for editing, which means it wall apply to all*/
 .title {
-  color: teal;
+  color: rgb(57, 255, 20);
 }
 /*this selector uses dot, this is for classes*/
 .stronks {
@@ -17,6 +17,7 @@ p {
 }
 #LoveLetter {
   font-family: cursive;
+  font-size: : 25px;
 }
 
 #author {
@@ -33,7 +34,7 @@ p {
 adding notes you may use the slashes and asterisks
 */
 a[href*='love'] {
-  color: lightblue;
+  color: rgb(176, 38, 255);
 }
 
 a:hover {
@@ -45,11 +46,12 @@ p.background {
 }
 
 .paragrapu p {
-  color: lightgreen;
+  color: rgb(57, 255, 20);
 }
 
 h1,
   p,
    a {
-     font-family: 'Brush Script MT';
+     font-family: 'Perpetua';
+     background-color: black;
    }
