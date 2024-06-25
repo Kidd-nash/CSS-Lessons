@@ -4,7 +4,7 @@ p {
 /*this is a tag selector for editng*/
 
 * {
-  border: 1px solid green;
+  border: 2px solid purple;
 }
 /*border edit is size, type, color*/
 /*this is a universal selector for editing, which means it wall apply to all*/
@@ -18,10 +18,12 @@ p {
 #LoveLetter {
   font-family: cursive;
   font-size: : 25px;
+  font-weight: bold;
 }
 
 #author {
   font-family: cursive;
+  font-weight: lighter;
 }
 /**/
 
@@ -54,4 +56,5 @@ h1,
    a {
      font-family: 'Perpetua';
      background-color: black;
+     text-align: center;
    }
