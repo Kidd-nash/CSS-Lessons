@@ -3,7 +3,7 @@ p {
 }
 /*this is a tag selector for editng*/
 
-* {
+div {
   border: 2px solid rgb(255, 229, 180);
 }
 /*border edit is size, type, color*/
