@@ -4,12 +4,12 @@ p {
 /*this is a tag selector for editng*/
 
 * {
-  border: 2px solid purple;
+  border: 2px solid rgb(255, 229, 180);
 }
 /*border edit is size, type, color*/
 /*this is a universal selector for editing, which means it wall apply to all*/
 .title {
-  color: rgb(57, 255, 20);
+  color: black;
 }
 /*this selector uses dot, this is for classes*/
 .stronks {
@@ -36,7 +36,7 @@ p {
 adding notes you may use the slashes and asterisks
 */
 a[href*='love'] {
-  color: rgb(176, 38, 255);
+  color: black;
 }
 
 a:hover {
@@ -44,23 +44,36 @@ a:hover {
 }
 
 p.background {
-  background-color: black;
+  background-color: white;
 }
 
 .paragrapu p {
-  color: rgb(57, 255, 20);
+  color: black;
 }
 
 h1,
   p,
    a {
      font-family: 'Perpetua';
-     background-color: black;
+     background-color: white;
      text-align: center;
-     opacity: 0.85;
+     opacity: 0.60;
    }
 
 /*
 there is a syntax important <!important> it overrides any set style acroos
 any stylesheet
 */
+
+div {
+  float: ;
+  width: 30%;
+}
+
+div {
+  background-image: url(/CSS-Lessons/Letter-BG.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 31% 100%;
+  height: 550px;
+}
