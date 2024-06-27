@@ -47,6 +47,7 @@ a:hover {
 
 a {
   padding: 10px 15px;
+  margin: 0 auto;
 }
 
 p.background {
@@ -73,13 +74,13 @@ any stylesheet
 
 div {
   float: ;
-  width: 400px;
+  width: 410px;
 }
 
 div {
   background-image: url(/CSS-Lessons/Letter-BG.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 410px 700px;
+  background-size: 420px 700px;
   height: 550px;
 }
