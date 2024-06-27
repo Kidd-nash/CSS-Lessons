@@ -83,4 +83,6 @@ div {
   background-attachment: fixed;
   background-size: 420px 700px;
   height: 550px;
+  min-width: 410px;
+  min-height: 550px;
 }
