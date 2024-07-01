@@ -5,6 +5,7 @@
 */
 * {
   box-sizing: border-box;
+  position: static;
 }
 
 p {
@@ -45,6 +46,10 @@ div {
 
 /*
 adding notes you may use the slashes and asterisks
+*/
+
+/*
+positioning of block elements
 */
 a[href*='love'] {
   color: black;
