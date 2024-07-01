@@ -85,13 +85,19 @@ h1,
 there is a syntax important <!important> it overrides any set style acroos
 any stylesheet
 */
+.header {
+  float:left;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
 
 div {
   float: ;
   width: 410px;
   position: absolute;
-  top: 50px;
-  left: 100px;
+  top: 20px;
+  left: 450px;
 }
 
 div {
