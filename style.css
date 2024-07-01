@@ -89,7 +89,7 @@ any stylesheet
 div {
   float: ;
   width: 410px;
-  position: relative;
+  position: absolute;
   top: 50px;
   left: 100px;
 }
