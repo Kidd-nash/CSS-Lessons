@@ -95,9 +95,9 @@ any stylesheet
 div {
   float: ;
   width: 410px;
-  position: absolute;
-  top: 20px;
-  left: 450px;
+  position: sticky;
+  top: 700px;
+  left: 20px;
 }
 
 div {
