@@ -1,10 +1,11 @@
 * {
     color: black;
     font-family: Arial;
+    background-color: rgb(157, 165, 189);
 }
 
 h1 {
-  font-size: 28px;
+    font-size: 28px;
 }
 
 p {
@@ -15,6 +16,10 @@ li {
     color: rgb(10, 32, 90);
 }
 
+img:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
 img[src*="color-palette-space-theme.png"] {
     height: 120px;
     width: 180px;
@@ -22,9 +27,18 @@ img[src*="color-palette-space-theme.png"] {
 }
 
 figcaption {
-  font-size: 10px;
+    font-size: 10px;
+}
+
+figcaption:hover {
+    color: rgb(255, 255, 255);
 }
 
 aside {
-    color: rgb(167, 0, 0);
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+aside.comment-reference {
+    color: rgb(58, 76, 122);
 }
