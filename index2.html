@@ -12,13 +12,15 @@
   </head>
   <body>
     <header>
-      <h1>
+      <h1 class="header-title">
         This part is the header
       </h1>
     </header>
     <main>
       <nav>
-        <h1>This part is the nav</h1>
+        <h1 class="navigation-title">
+          This part is the nav
+        </h1>
         <ul>
           <li>LINKING HTML TO CSS</li>
           <li>CSS ANATOMY</li>
@@ -26,10 +28,13 @@
           <li>INTERNAL STYLESHEET</li>
           <li>UNIVERSAL</li>
           <li>SELECTOR TYPES</li>
+          <li>ATTRIBUTE</li>
         </ul>
       </nav>
       <section>
-        <h1>This part is the body</h1>
+        <h1 class="body-title">
+          This part is the body
+        </h1>
         <article>
           <h2>Linking stylesheetes</h2>
           <p>
@@ -110,12 +115,33 @@
           </aside>
         </article>
         <article>
+          <h2>Attribute Selectors</h2>
+          <p>
+            This selector uses attributes in order to style the elements it is
+            nested on. In order to select attribute you enclose them in "[]"
+            like [href]. You can also be more specific and instead use the
+            element and its attribute like this "element[attribute*=value]",
+            for example, "img[href*='link']".
+          </p>
+          <h4>Color Palette Used</h4>
+          <figure>
+            <img src="color-palette-space-theme.png">
+            <figcaption>
+              Shades of Blue for Space Theme Color Palette
+            </figcaption>
+          </figure>
+          <aside>
+            * for application purposes i inserted an image to select it on css
+          </aside>
+        </article>
+        <article>
           <h2></h2>
           <p></p>
         </article>
       </section>
     </main>
     <footer>
+      <h1 class="footer-title">This part is the footer<h1>
     </footer>
   </body>
 </html>

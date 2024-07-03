@@ -3,6 +3,9 @@
     font-family: Arial;
 }
 
+h1 {
+  font-size: 28px;
+}
 
 p {
     color: rgb(10, 32, 90);
@@ -10,6 +13,16 @@ p {
 
 li {
     color: rgb(10, 32, 90);
+}
+
+img[src*="color-palette-space-theme.png"] {
+    height: 120px;
+    width: 180px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+figcaption {
+  font-size: 10px;
 }
 
 aside {
