@@ -1,12 +1,17 @@
 * {
-  color: black;
-  font-family: Arial;
+    color: black;
+    font-family: Arial;
 }
 
 
 p {
-  color: rgb(10, 32, 90);
+    color: rgb(10, 32, 90);
 }
+
 li {
- color: rgb(10, 32, 90);
+    color: rgb(10, 32, 90);
+}
+
+aside {
+    color: rgb(167, 0, 0);
 }
