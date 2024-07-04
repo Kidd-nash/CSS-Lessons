@@ -16,6 +16,16 @@ li {
     color: rgb(10, 32, 90);
 }
 
+.color-palette {
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.color-palette:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+
 img:hover {
     border: 2px solid rgb(255, 255, 255);
 }
@@ -24,6 +34,7 @@ img[src*="color-palette-space-theme.png"] {
     height: 120px;
     width: 180px;
     border: 1px solid rgb(0, 0, 0);
+    vertical-align: top;
 }
 
 figcaption {
@@ -42,3 +53,12 @@ aside {
 aside.comment-reference {
     color: rgb(58, 76, 122);
 }
+
+/*
+Color Palette References
+#ffffff	(255,255,255)
+#9da5bd	(157,165,189)
+#3a4c7a	(58,76,122)
+#0a205a	(10,32,90)
+#040c24	(4,12,36)
+*/
