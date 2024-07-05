@@ -2,7 +2,7 @@
     color: black;
     font-family: Perpetua;
     background-color: rgb(157, 165, 189);
-    margin: 0; 
+    margin: 0;
 }
 
 header {
@@ -20,12 +20,19 @@ header,
           padding: 10px 20px;
       }
 
+p,
+  li,
+    aside {
+    margin: 5px;
+  }
+
 h1 {
     font-size: 28px;
 }
 
 p {
     color: rgb(10, 32, 90);
+    padding: 10px 20px;
 }
 
 li {
