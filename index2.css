@@ -10,6 +10,14 @@ header {
   width: 1440px;
 }
 
+header,
+  nav,
+    section,
+      footer,
+        h2 {
+          border: 1px solid rgb(4,12,36);
+      }
+
 h1 {
     font-size: 28px;
 }
