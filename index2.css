@@ -16,6 +16,10 @@ li {
     color: rgb(10, 32, 90);
 }
 
+.box-model-properties li {
+  font-weight: normal;
+}
+
 .color-palette {
   display: inline-block;
   border: 2px solid transparent;
