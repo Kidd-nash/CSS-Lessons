@@ -13,12 +13,18 @@ header {
 header,
   nav,
     section,
-      footer,
-        h2 {
+      footer {
           border: 1px solid rgb(4,12,36);
           border-radius: 6px;
           padding: 10px 20px;
       }
+
+h1 {
+    border: 1px solid rgb(4,12,36);
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 5px;  
+}
 
 p,
   li,
