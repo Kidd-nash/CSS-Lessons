@@ -82,10 +82,15 @@ img[src*="Box-model.png"] {
 
 figcaption {
     font-size: 10px;
+    font-weight: normal;
 }
 
 figcaption:hover {
     color: rgb(255, 255, 255);
+}
+
+.article-notes {
+    font-weight: normal;
 }
 
 aside {
@@ -95,6 +100,7 @@ aside {
 
 aside.comment-reference {
     color: rgb(58, 76, 122);
+    font-weight: normal;
 }
 
 /*
