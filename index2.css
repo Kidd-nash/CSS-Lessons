@@ -7,7 +7,8 @@
 
 header {
   height: 80px;
-  width: 1440px;
+  width: 1398px;
+  overflow: hidden;
 }
 
 header,
@@ -27,11 +28,13 @@ h1 {
     margin: 5px;
 }
 
-p,
-  li,
-    aside {
-    margin: 5px;
-  }
+h2,
+  p,
+    li,
+      figure,
+        aside {
+      margin: 5px;
+    }
 
 h1 {
     font-size: 28px;
@@ -118,6 +121,12 @@ aside.comment-reference {
     color: rgb(58, 76, 122);
     font-weight: normal;
 }
+/*
+Setting minimum and maximum are important to set a certain value for height and
+width since different devices have different screen size.
+
+
+*/
 
 /*
 Color Palette References
