@@ -3,12 +3,14 @@
     font-family: Perpetua;
     background-color: rgb(157, 165, 189);
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 header {
   height: 80px;
-  width: 1398px;
+  width: 1440px;
   overflow: hidden;
+
 }
 
 header,
