@@ -55,15 +55,6 @@ li {
   font-weight: normal;
 }
 
-.color-palette {
-  display: inline-block;
-  border: 2px solid transparent;
-}
-
-.color-palette:hover {
-  border: 2px solid rgb(255, 255, 255);
-}
-
 
 img:hover {
     border: 2px solid rgb(255, 255, 255);
@@ -90,6 +81,29 @@ img[src*="margin-collapse.png"] {
     vertical-align: top;
 }
 
+img[src*="content-box.png"] {
+    height: 115px;
+    width: 170px;
+    border: 1px solid rgb(0, 0, 0);
+    vertical-align: top;
+}
+
+img[src*="border-box.png"] {
+    height: 100px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    vertical-align: top;
+}
+
+.color-palette {
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.color-palette:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
 .box-model {
   display: inline-block;
   border: 2px solid transparent;
@@ -99,6 +113,32 @@ img[src*="margin-collapse.png"] {
   border: 2px solid rgb(255, 255, 255);
 }
 
+.margin-collapse {
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.margin-collapse:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.content-box {
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.content-box:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.border-box {
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.border-box:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
 
 
 figcaption {
