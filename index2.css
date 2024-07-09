@@ -10,10 +10,14 @@ header {
   height: 80px;
   width: 1440px;
   overflow: hidden;
-  /* position: absolute; */
-
+  position: fixed;
+  z-index: 1;
 }
 
+main {
+  position: relative;
+  top: 80px;
+}
 
 header,
   nav,
