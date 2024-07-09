@@ -10,8 +10,10 @@ header {
   height: 80px;
   width: 1440px;
   overflow: hidden;
+  /* position: absolute; */
 
 }
+
 
 header,
   nav,
@@ -42,6 +44,15 @@ h1 {
     font-size: 28px;
 }
 
+h4 {
+    position: relative;
+    left: 15px;
+  }
+ h5 {
+   position: relative;
+   left: 20px;
+ }
+
 p {
     color: rgb(10, 32, 90);
     padding: 10px 20px;
@@ -53,6 +64,11 @@ li {
 
 .box-model-properties li {
   font-weight: normal;
+}
+
+img {
+  position: relative;
+  /* left: 50px; */
 }
 
 
