@@ -19,6 +19,10 @@ main {
   top: 80px;
 }
 
+nav {
+  position: sticky;
+}
+
 header,
   nav,
     section,
