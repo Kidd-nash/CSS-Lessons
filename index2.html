@@ -667,9 +667,37 @@
             - The generated link element needs to be added to the head element
             in your HTML document for it to be ready to be used in your CSS.
           </p>
+          <h4>Web Fonts using @font-face</h4>
+          <p>
+            Fonts can also be added using a @font-face ruleset in your CSS
+            stylesheet instead of using a link element in your HTML document.
+            As mentioned earlier, fonts can be downloaded just like any other
+            file on the web. They come in a few different file formats, such
+            as:
+          </p>
           <ul>
-          <li></li>
+          <li>OTF (OpenType Font)</li>
+          <li>TTF (TrueType Font)</li>
+          <li>WOFF (Web Open Font Format)</li>
+          <li>WOFF2 (Web Open Font Format 2)</li>
           </ul>
+          <p>
+            The different formats are a progression of standards for how fonts
+            will work with different browsers, with WOFF2 being the most
+            progressive. It’s a good idea to include TTF, WOFF, and WOFF2
+            formats with your @font-face rule to ensure compatibility on all
+            browsers.
+          </p>
+          <p>
+            Within the “Selected Families” section, you can use the “Download”
+            button to download the font files to your computer. The files will
+           be downloaded in a single format, in this case, TTF. You can use
+           additional tools to generate additional file types for WOFF and
+           WOFF2, check out MDN’s list of font generators for more information.
+           When you have the files you need, move them to a folder inside your
+           website’s working directory, and you’re ready to use them in a
+           @font-face ruleset!
+          </p>
         </article>
         <article>
           <h2></h2>
