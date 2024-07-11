@@ -73,6 +73,7 @@ h4 {
 p {
     color: rgb(10, 32, 90);
     padding: 10px 20px;
+    letter-spacing: 0.5px;
 }
 
 li {
