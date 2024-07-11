@@ -40,6 +40,14 @@ h1 {
     padding: 10px 20px;
     margin: 5px;
 }
+h1,
+  h2,
+    h3,
+      h4,
+        h5,
+          h6 {
+            text-transform: uppercase;
+            }
 
 h2,
   p,
