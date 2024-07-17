@@ -21,13 +21,10 @@ main {
   display: inline-flex;
 }
 
-nav {
-  position: sticky;
-}
+
 
 header,
-  nav,
-    section,
+    div,
       footer,
         article {
           border: 1px solid rgb(4,12,36);
