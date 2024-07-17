@@ -782,7 +782,8 @@
             the container (this is the default value; elements with a specified
             height will not stretch; elements with a minimum height or no height
             specified will stretch).
-          </li><br>
+          </li>
+        </ul>
           <h4>flex-grow</h4>
           <p>
             The flex-grow property allows us to specify if items should grow to
@@ -814,6 +815,27 @@
             Note: The flex property is different from the flex value used for
             the display property.
           </aside>
+          <h4>flex-wrap</h4>
+          <p>
+            The flex-wrap property can accept three values:
+          </p>
+          <ul>
+          <li>
+            wrap — child elements of a flex container that don’t fit into a row
+            will move down to the next line
+          </li>
+          <li>
+            wrap-reverse — the same functionality as wrap, but the order of
+            rows within a flex container is reversed (for example, in a 2-row
+            flexbox, the first row from a wrap container will become the second
+            in wrap-reverse and the second row from the wrap container will
+            become the first in wrap-reverse)
+          </li>
+          <li>
+            nowrap — prevents items from wrapping; this is the default value
+            and is only necessary to override a wrap value set by a different
+            CSS rule.
+          </li>
           </ul>
         </article>
         <article>
