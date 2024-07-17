@@ -21,7 +21,16 @@ main {
   display: inline-flex;
 }
 
+.nav_div {
+  position: fixed;
+  width: 20%;
+  height: 700px;
+}
 
+.main_div {
+  width: 80%;
+  margin-left: 288px;
+}
 
 header,
     div,
