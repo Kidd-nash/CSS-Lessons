@@ -27,9 +27,13 @@ main {
   height: 700px;
 }
 
+ul {
+  /* list-style: none; */
+}
+
 .main_div {
   width: 80%;
-  margin-left: 288px;
+  margin-left: 20%;
 }
 
 header,
